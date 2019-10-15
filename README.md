@@ -19,6 +19,6 @@ Note: dot (.) after --install-dir denotes `Current directory`.
 Since the script installs all the runtime into a single 'dotnetcore' directory, you can uninstall by simply deleting the folder.  
 
 
-[Learn More](https://dreamstudio.com/software) about the leading free creative tools for students, educators, business and government.  
+[Learn More](https://dreamstudio.com/dreamstudio/creative/#suite) about the leading free creative tools for students, educators, business and government.  
 
 
