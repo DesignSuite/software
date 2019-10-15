@@ -1,4 +1,4 @@
-# Design Suite Installer
+# DreamStudio - Design Suite Installer
 
 Install the leading open source tools for creative design.  
 
