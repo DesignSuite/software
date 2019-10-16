@@ -6,17 +6,11 @@ Install the leading open source tools for creative design.
 
 Copy the [Mac install script](MacOS/InstallCreativeApps.sh) and run in a local terminal.  
 
-## Windows and Linux
+## Linux - Tested on Ubuntu 18 LTS only
+Copy the [Ubuntu install script](Ubuntu/InstallCreativeApps.sh) and run in a local terminal. 
 
-1. Clone the 'CreativeApps' folder to your application folder.
-2. Open terminal and cd to the folder.
-3. Install dotnet on linux. (dotnet is already installed on PCs)
-<pre>
-curl -ssl https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --runtime dotnet --install-dir .
-</pre>
-Note: dot (.) after --install-dir denotes `Current directory`.
-
-Since the script installs all the runtime into a single directory, you can uninstall by simply deleting the folder.  
+## Windows 10
+Copy the [Windows install script](Windows/InstallCreativeApps.ps1) and run in a local terminal. 
 
 
 [Learn More](https://dreamstudio.com/dreamstudio/creative/#suite) about the leading free creative tools for students, educators, business and government.  
