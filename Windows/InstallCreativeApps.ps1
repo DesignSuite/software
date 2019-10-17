@@ -1,6 +1,6 @@
 ﻿#region begin Install Blender
-$BlenderUrl = "http://127.0.0.1:8080/blender-2.80-windows64.msi"
-# $BlenderUrl = "https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.80/blender-2.80-windows64.msi"
+# $BlenderUrl = "http://127.0.0.1:8080/blender-2.80-windows64.msi"
+$BlenderUrl = "https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.80/blender-2.80-windows64.msi"
 $BlenderMsi = 'c:\windows\temp\blender-2.80-windows64.msi'
 
 Invoke-WebRequest $BlenderUrl -OutFile $BlenderMsi -UseBasicParsing
@@ -10,8 +10,8 @@ Start-Process msiexec.exe -Wait -ArgumentList "/I $BlenderMsi /quiet"
 
 
 #region begin Install Gimp
-$GimpUrL = "http://127.0.0.1:8080/gimp-2.10.12-setup-3.exe"
-# $GimpUrL = "https://www.mirrorservice.org/sites/ftp.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.12-setup-3.exe"
+# $GimpUrL = "http://127.0.0.1:8080/gimp-2.10.12-setup-3.exe"
+$GimpUrL = "https://www.mirrorservice.org/sites/ftp.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.12-setup-3.exe"
 $GimpExe = 'c:\windows\temp\gimp-2.10.12-setup-3.exe'
 
 Invoke-WebRequest $GimpUrL -OutFile $GimpExe -UseBasicParsing
@@ -20,8 +20,8 @@ Start-Process $GimpExe  "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
 
 
 #region begin Install Inkscape
-$InkscapeUrl = "http://127.0.0.1:8080/inkscape-0.92.4-x64.msi"
-# $InkscapeUrl = "https://media.inkscape.org/dl/resources/file/inkscape-0.92.4-x64.msi"
+# $InkscapeUrl = "http://127.0.0.1:8080/inkscape-0.92.4-x64.msi"
+$InkscapeUrl = "https://media.inkscape.org/dl/resources/file/inkscape-0.92.4-x64.msi"
 $InkscapeMsi = 'c:\windows\temp\inkscape-0.92.4-x64.msi'
 
 Invoke-WebRequest $InkscapeUrl -OutFile $InkscapeMsi -UseBasicParsing
@@ -29,8 +29,8 @@ Start-Process  msiexec.exe -Wait -ArgumentList "/I $InkscapeMsi /quiet"
 #endregion
 
 #region begin Install LibreOffice
-$LibreOfficeUrl = "http://127.0.0.1:8080/LibreOffice_6.3.2_Win_x64.msi"
-# $LibreOfficeUrl = "https://mirrors.estointernet.in/tdf/libreoffice/stable/6.3.2/win/x86_64/LibreOffice_6.3.2_Win_x64.msi"
+# $LibreOfficeUrl = "http://127.0.0.1:8080/LibreOffice_6.3.2_Win_x64.msi"
+$LibreOfficeUrl = "https://mirrors.estointernet.in/tdf/libreoffice/stable/6.3.2/win/x86_64/LibreOffice_6.3.2_Win_x64.msi"
 $LibreOfficeMsi = 'c:\windows\temp\LibreOffice_6.3.2_Win_x64.msi'
 
 Invoke-WebRequest $LibreOfficeUrl -OutFile $LibreOfficeMsi -UseBasicParsing
@@ -38,8 +38,8 @@ Start-Process  msiexec.exe -Wait -ArgumentList "/I $LibreOfficeMsi /quiet"
 #endregion
 
 #region begin Install LightWorks
-$lightworksUrl = "http://127.0.0.1:8080/lightworks_v14.5.0_full_64bit.exe"
-# $lightworksUrl = "http://cdn.lwks.com/lightworks_v14.5.0_full_64bit.exe"
+# $lightworksUrl = "http://127.0.0.1:8080/lightworks_v14.5.0_full_64bit.exe"
+$lightworksUrl = "http://cdn.lwks.com/lightworks_v14.5.0_full_64bit.exe"
 $lightworksExe = 'c:\windows\temp\lightworks_v14.5.0_full_64bit.exe'
 
 Invoke-WebRequest $lightworksUrl -OutFile $lightworksExe -UseBasicParsing
