@@ -7,3 +7,4 @@ brew cask install gimp
 brew cask install inkscape
 brew cask install lightworks
 brew cask install libreoffice
+brew cask install freecad
