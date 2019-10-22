@@ -6,3 +6,4 @@ brew remove inkscape
 brew remove lightworks
 brew remove libreoffice
 brew remove freecad
+brew remove scribus

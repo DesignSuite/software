@@ -15,4 +15,6 @@ Copy the [Windows install script](Windows/InstallCreativeApps.ps1) and run in a 
 -----
 [Learn More](https://dreamstudio.com/dreamstudio/creative/#suite) about the leading free creative tools for students, educators, business and government.  
 
+Creative Commons Licenses - Link and credits must remain on any forked version of this repo. Please make shared updates to the root source at [Github.com/DesignSuite/CreativeApps](https://Github.com/DesignSuite/CreativeApps)
+
 

@@ -5,6 +5,7 @@ snap remove gimp
 snap remove inkscape
 snap remove libreoffice
 snap remove freecad
+snap remove scribus
 
 dpkg --remove --purge lightworks
 

@@ -8,3 +8,4 @@ brew cask install inkscape
 brew cask install lightworks
 brew cask install libreoffice
 brew cask install freecad
+brew cask install scribus
