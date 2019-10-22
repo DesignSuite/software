@@ -5,6 +5,7 @@ Install the leading open source tools for creative design.
 ## Mac OS
 
 Copy the [Mac install script](MacOS/InstallCreativeApps.sh) and run in a local terminal.  
+After installing, click "Get Info" on new apps and unlock in the lower right.  
 
 ## Linux - Tested on Ubuntu 18 LTS only
 Copy the [Ubuntu install script](Ubuntu/InstallCreativeApps.sh) and run in a local terminal. 
@@ -15,6 +16,8 @@ Copy the [Windows install script](Windows/InstallCreativeApps.ps1) and run in a 
 -----
 [Learn More](https://dreamstudio.com/dreamstudio/creative/#suite) about the leading free creative tools for students, educators, business and government.  
 
-Creative Commons Licenses - Link and credits must remain on any forked version of this repo. Please make shared updates to the root source at [Github.com/DesignSuite/CreativeApps](https://Github.com/DesignSuite/CreativeApps)
+Creative Commons Licenses - Link and credits must remain on any forked version of this repo.  
+
+Please make shared updates to the root source at [Github.com/DesignSuite/CreativeApps](https://Github.com/DesignSuite/CreativeApps)
 
 
