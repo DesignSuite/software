@@ -45,3 +45,13 @@ $lightworksExe = 'c:\windows\temp\lightworks_v14.5.0_full_64bit.exe'
 Invoke-WebRequest $lightworksUrl -OutFile $lightworksExe -UseBasicParsing
 Start-Process -FilePath $lightworksExe -Wait -ArgumentList "/S"
 #endregion
+
+#region begin Install FreeCad
+# $freecadUrl = "http://127.0.0.1:8000/FreeCAD-0.18.16131.3129ae4-WIN-x64-installer.exe"
+$freecadUrl = "https://github.com/FreeCAD/FreeCAD/releases/download/0.18.3/FreeCAD-0.18.16131.3129ae4-WIN-x64-installer.exe"
+$freecadExe = 'c:\windows\temp\FreeCAD-0.18.16131.3129ae4-WIN-x64-installer.exe'
+
+Invoke-WebRequest $freecadUrl -OutFile $freecadExe -UseBasicParsing
+# Start-Process -FilePath $freecadExe -Wait -ArgumentList "/S"
+Start-Process $freecadExe  "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
+#endregion
