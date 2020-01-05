@@ -1,6 +1,6 @@
-# DreamStudio - Creative Apps
+# DreamStudio Install Script
 
-Install the leading open source tools for creative design.  
+Simple script for installing the leading open source tools for creative design.   
 
 ## Mac OS
 
