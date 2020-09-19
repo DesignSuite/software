@@ -4,7 +4,7 @@ DreamSuite provides an easy way to install open source software without visiting
 
 ### Mac OS
 
-To run the [Mac install script](MacOS/InstallCreativeApps.sh) - Open the app called "Terminal" on your Mac.  
+[Run the Mac install script](MacOS/InstallCreativeApps.sh) by opening your "Terminal" command prompt.  
 Type "sh " than drag the InstallCreativeApps.sh file onto the terminal to complete the path.  
 After installing, click "Get Info" on new apps and unlock in the lower right.  
 
