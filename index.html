@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html;">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/dreamstudio/favicon.ico" />
+<link rel='stylesheet' href='/dreamstudio/css/dreamstudio.css'>
+<meta name="keywords" content="Creative Suite, software install scripts, open source, software, free, Adobe Creative Cloud, LibreOffice, Microsoft Office, GIMP, Blender, InkScape, Lightworks, Professional, Education">
+
+<title>DreamStudio Creative Suite - Script for loading the leading open source design apps</title>
+
+<!--
+<link type="text/css" href="https://neighborhood.org/localsite/css/base.css" rel="stylesheet" />
+-->
+<style>
+	a {
+		text-decoration: none !important;
+	}
+</style>
+
+<link rel='stylesheet' href='/dreamstudio/css/plyr.css'>
+<script src='/dreamstudio/js/polyfill.min.js?features=es6,Array.prototype.includes,CustomEvent,Object.entries,Object.values,URL'></script>
+
+
+<script src='/dreamstudio/js/plyr.min.js'></script>
+<script type="text/javascript" src="https://neighborhood.org/localsite/js/jquery/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="https://neighborhood.org/localsite/js/localsite.js"></script>
+<script type="text/javascript" src="https://neighborhood.org/localsite/js/d3.v5.min.js"></script>
+</head>
+
+<body>
+
+<div style="height:80px;background:#fff;z-index:1;width:100%;position:fixed;overflow:hidden;z-index:1000">
+	
+	<div style="float:left"><a href="../"><img src="/dreamstudio/images/logos/dreamstudio.jpg" style="height:24px; margin:28px 10px 4px 34px" /></a>
+	</div>
+
+	<div style="overflow:auto; border-left:0px solid #ccc; height:60px; margin:23px 40px 0 10px; padding-left:16px; font-size:13px">
+
+		<div class="navLinks" style="float:right;padding-top:6px">
+			<a href="#suite"><span style="white-space: nowrap">Creative Suite</span></a> | 
+			<!--
+			<a href="#about"><span style="white-space: nowrap">About Us</span></a> | 
+			-->
+			<a href="/dreamstudio/#portfolio"><span style="white-space: nowrap">Portfolio</span></a> | 
+			<!--
+			<a href="#live">Planet Live</a> | 
+		     -->
+            <a href="/dreamstudio/#contact">Contact</a>
+         </div>
+
+	</div>
+</div>
+
+<div style="height:100px"></div>
+<div style="text-align:center; margin-top:10px">
+	<img src="/dreamstudio/img/apps/gimp_99062.png">
+	<img src="/dreamstudio/img/apps/blender.png" style="max-width:140px;margin:17px 4px 0 7px">
+	<img src="/dreamstudio/img/apps/inkscape.png" style="max-width:128px">
+</div>
+
+<div class="lite" style="padding-bottom:30px">
+
+  <h3 style="text-align:center;color:#777"><span style="color:#555">Dream</span>Studio <span style="white-space:nowrap;color:#555">Creative Suite</span><!--sup style="font-size:8px;line-height:32px;margin-top:-4px">TM</sup-->
+	
+  </h3>
+
+  <p style="margin-top:30px; text-align: center;">
+
+  		
+
+  		<div style="max-width:700px; margin:0 auto; text-align: center;">
+			
+
+  			<a class="smartButton" href="https://github.com/DesignSuite/CreativeApps/" style="margin-bottom:18px; font-size:16px; border-radius: 16px; padding:8px 16px 8px 16px">Install DreamStudio</a><br>
+
+  			Our open source software script installs    
+			the popular, free alternatives<br>
+			to Adobe Creative Cloud and 
+			Microsoft Office for Mac, PC and Linux.<br><br>
+
+			<!--
+				<a href="https://www.adobe.com/creativecloud/buy/students.html" target="_blank">Adobe Creative Cloud</a> and 
+				<a href="https://www.microsoft.com/en-us/education/products/office">Microsoft Office</a>
+			-->
+			
+
+			<!--
+			Our installer provides an easy way for schools and offices to update both Macs and PCs.<br>
+			-->
+
+			<!--
+			, who specializes in innovative hardware solutions and audio production software. 
+			-->
+		</div>
+		
+
+		<div style="display:table; margin:0 auto; border:1px solid #ddd; padding:20px 25px 0 25px">
+			<div style="float:left;margin:0 40px 20px 0">
+			* <a href="https://www.blender.org/">Blender</a> 3D graphics<br>
+			* <a href="https://www.gimp.org/">GIMP</a> PhotoShop alternative<br>
+			* <a href="https://inkscape.org/">Inkscape</a> vector graphics<br>
+			<!-- Pro version required for HD output. Most computers come with a video editor. -->
+			* <a href="https://www.lwks.com/">Lightworks</a> video editor<br>
+			</div>
+
+
+			<div style="float:left; margin-bottom:20px">
+			* <a href="https://www.libreoffice.org/">LibreOffice</a> - Free alternative to Microsoft Office - Excel and Word<br>
+			* <a href="https://www.scribus.net/">Scribus</a> - Free desktop publishing alternative to Adobe InDesign<br>
+			* <a href="https://www.freecadweb.org/">FreeCAD</a> - Parametric modeler for designing printable 3D objects.<br>
+			<!--
+			* All the Top Open Source Creative Design Apps<br>
+
+			Could add: Visual Studio Code.  Sublime Text (is not free at $80 for 3 years individual)
+
+			To add, as un-checked option:
+			QGIS - Alternative to ArcGIS for map making - Consumes all types of data!
+
+			-->
+			
+			
+			<!--
+			* Cinelarra, Avid Video Editor Alternative<br>
+			* Drum Machines, Synthesizers, Audio Mastering<br>
+			-->
+
+			<!-- 
+				Ardour is not pitched as free.
+				https://community.ardour.org/download_form 
+			-->
+			<!--
+			* <a href="https://ardour.org/">Ardour Multitrack Audio Recorder</a> - free alternative to ProTools<br>
+			-->
+			</div>
+
+			<!--
+			<a class="smartButton" href="http://www.techrepublic.com/blog/tr-dojo/dream-studio-media-maker-is-a-dream-come-true/" style="background:#777;" target="techrepublic.com">Learn more</a>
+			-->
+
+			
+			
+		</div>
+
+
+  </p>
+
+  <div style="display:table; margin:0 auto; text-align: left">
+
+  		<div style="width:100%; display:table; margin:0 auto; text-align: center; margin-top:12px">
+  			
+  			
+
+  			
+  			<span style="white-space: nowrap">All the tools you need to create</span>&nbsp;<span style="white-space: nowrap">increadible creative projects, <a href="https://github.com/DesignSuite/CreativeApps/">for free!</a></span><br>
+
+
+
+
+			<br>
+
+			
+
+			<!--
+			<a class="smartButton" href="https://sourceforge.net/projects/dreamstudio/" target="suite">Install Virtual Desktop</a>
+			-->
+			
+
+		</div>
+
+	</div>
+	<br>
+
+</div>
+
+
+<!-- Not yet using slider -->
+<div class="container">
+    <div id="player6" data-plyr-provider="youtube" data-plyr-embed-id="MyxWDHy4ppY"></div>
+</div>
+<script>
+    player6 = new Plyr('#player6', {autopause:'true',hideControls:'true'});
+    window.player = player6;
+    //window.player.on("ready", function() {
+    //    alert('ready')
+    //    //this.seek(120);
+    //    window.player.currentTime = 200;
+    //    //this.currentTime = 120;
+    //});
+</script>
+
+
+
+<div class="lite">
+
+
+	<h3 style="text-align:center;color:#777">Open Source <span style="color:#555">Installer</span></h3>
+
+	<div style="text-align:center">
+		
+		Collaboratively development is setting the bar for quality in art, science and industry.<br>
+
+
+		<!--
+		And we're 100% committed to never adding a deceptive app to the DreamStudio Suite.<br><br>
+		-->
+
+
+		If you're using a new tool that is gaining popularity in the open source community, add it<br>
+		by customizing the installer script at <a href="https://github.com/DesignSuite/CreativeApps/">Github.com/DesignSuite/CreativeApps</a>
+
+		<!--
+		<br><br>
+
+		<hr style="width:300px"><br>
+
+		Tip: If you currently work with InDesign, get in the habit of saving your files as IDML.<br> 
+		IDML files can be opened with Scribus 1.5 and older versions of InDesign.<br>
+		Our installer includes Scribus 1.4.8, so you'll need to downloand Scribus 1.5 directly.
+		-->
+
+	</div>
+
+
+	<div style="display:none">
+	  <h3 style="text-align:center;"><span style="color:#777">Dream</span>Studio HARDWARE</h3>
+
+	  <p style="text-align:center">
+
+	  	<span class="navLinks">
+	  		<!-- https://volocian.com/help/ -->
+	  		<a href="https://www.linkedin.com/in/richard-macinnis-b621b645/" style="margin-right:0px; text-decoration: underline;" target="volocian">Contact Richard at Volocian Studios</a> to order pre-installed machines.<br><br>
+	  	</span>
+
+
+	  	<a href="https://ca.linkedin.com/in/richard-macinnis-b621b645" hrefX="https://volocian.com/shop/dreamstudio-apollo/" target="pc">DreamStudio PC - Pro</a><br>
+	  	64-bit intel CPU for<br>
+	  	Professional Multimedia Production<br>
+	  	Weight 1.5 kg, Size 30 x 30 x 30 cm<br>
+		4GB RAM ($299.00)<br>
+		8GB RAM ($349.00)<br><br>
+		
+		<a href="https://ca.linkedin.com/in/richard-macinnis-b621b645" hrefX="https://volocian.com/shop/dreamstudio-athena/" target="drive">DreamStudio PC - Basic</a><br>
+		Weight 0.7 kg, Size 20 x 20 x 20 cm<br>
+		4GB RAM / 64GB SSD ($199)<br><br>
+		<!-- 8GB RAM / 128GB SSD -->
+
+		Or add to your existing machines using a pre-installed USB stick:<br>
+
+	    <a href="https://ca.linkedin.com/in/richard-macinnis-b621b645" hrefX="https://volocian.com/shop/dreamstudio-apollo/" target="pc">DreamStudio USB Stick</a><br>
+	  	Weight 0.2 kg, Size 10 x 10 x 5 cm<br>
+		32GB ($44.00)<br>
+		64GB ($59.00)<br>
+		128GB ($79.00)<br><br>
+
+		Or download to install yourself. Technical setup required:<br>
+		<a href="https://sourceforge.net/projects/dreamstudio/">Download DreamStudio OS</a>
+		<br><br>
+
+	  </p>
+
+	    <div style="display:table; margin:0 auto">
+			<div style="max-width:650px; text-align:justify;">
+
+			<hr>
+			Runs on Apple, Dell, Acer (or any 64-bit Intel or AMD PC).  
+			
+			Create stunning graphics, captivating videos, inspiring music, and professional websites using open source design tools assembled by Saskatchewan musician and hardware specialist Richard MacInnis of Volocian Studios.
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="lazy bgimg" data-src="/dreamstudio/images/features/eye.jpg" style="min-height:700px;">
+  <div class="herocenter">
+    <span class="border" style="color:#ccc">Nurture Ideas</span>
+  </div>
+</div>
+
+
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+
+
+	<h3 style="text-align:center;"><span style="white-space: nowrap">Release your dreams</span></h3>
+	<div class="navLinks" style="text-align: center">
+		<a href="http://dreamstudio.com/account/write/8">Contact dreamstudio</a>
+	</div>
+
+</div>
+
+</body>
+</html>
