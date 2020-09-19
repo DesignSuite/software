@@ -15,11 +15,9 @@ Copy the [Windows install script](Windows/InstallCreativeApps.ps1) and run in a 
 Copy the [Ubuntu install script](Ubuntu/InstallCreativeApps.sh) and run in a local terminal.  
 
 -----
-[Learn More](https://dreamstudio.com/creative/#suite) about the leading free creative tools for students, educators, business and government.  
+[Learn More](https://dreamstudio.com/software) about the leading free creative tools for students, educators, business and government.  
 
-Creative Commons Licenses - Link and credits must remain on any forked version of this repo.  
-
-Please make shared updates to the root source at [Github.com/DesignSuite/CreativeApps](https://Github.com/DesignSuite/creative)  
+Please make shared updates to the main repo at [Github.com/DreamSuite/software](https://Github.com/DesignSuite/creative)  
 
 Fork this repo and host under your own domain.  Add your favorite software installs!
 
