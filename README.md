@@ -4,7 +4,7 @@ DreamSuite provides an easy way to install open source software without visiting
 
 ### Mac OS
 
-To install, run the [Mac install script](MacOS/InstallCreativeApps.sh) in a local terminal.  
+To run the [Mac install script](MacOS/InstallCreativeApps.sh) - Open the app called "Terminal" on your Mac.  
 Type "sh " than drag the InstallCreativeApps.sh file onto the terminal to complete the path.  
 After installing, click "Get Info" on new apps and unlock in the lower right.  
 
@@ -19,6 +19,6 @@ Copy the [Ubuntu install script](Ubuntu/InstallCreativeApps.sh) and run in a loc
 
 Please make shared updates to the main repo at [Github.com/DreamSuite/software](https://Github.com/DesignSuite/creative)  
 
-Fork this repo and host under your own domain.  Add your favorite software installs!
+Suggestion: Fork and add an installer app that schools can use to update student computers.
 
 
