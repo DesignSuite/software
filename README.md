@@ -1,6 +1,6 @@
 # DreamSuite
 
-Steps for installing Dreamstudio DreamSuite.   
+Steps for installing the DreamSuite open source software collection.   
 
 ## Mac OS
 
@@ -21,6 +21,6 @@ Creative Commons Licenses - Link and credits must remain on any forked version o
 
 Please make shared updates to the root source at [Github.com/DesignSuite/CreativeApps](https://Github.com/DesignSuite/creative)  
 
-You can fork and host this repo under your own domain.  
+Fork this repo and host under your own domain.  Add your favorite software installs!
 
 
