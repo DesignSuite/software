@@ -1,6 +1,6 @@
-# Design Suite
+# DreamSuite
 
-Steps for installing design suite.   
+Steps for installing Dreamstudio DreamSuite.   
 
 ## Mac OS
 
