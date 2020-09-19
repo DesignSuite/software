@@ -1,17 +1,17 @@
-# DreamSuite
+## Dreamstudio Design Suite
 
 Steps for installing the DreamSuite open source software collection.   
 
-## Mac OS
+### Mac OS
 
 Copy the [Mac install script](MacOS/InstallCreativeApps.sh) and run in a local terminal.  
 Type "sh " than drag the InstallCreativeApps.sh file onto the terminal to complete the path.  
 After installing, click "Get Info" on new apps and unlock in the lower right.  
 
-## Windows 10
+### Windows 10
 Copy the [Windows install script](Windows/InstallCreativeApps.ps1) and run in a local terminal. 
 
-## Linux - Tested on Ubuntu 18 LTS
+### Linux - Tested on Ubuntu 18 LTS
 Copy the [Ubuntu install script](Ubuntu/InstallCreativeApps.sh) and run in a local terminal.  
 
 -----
