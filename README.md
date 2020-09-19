@@ -1,4 +1,4 @@
-## <img src="https://dreamstudio.com/dreamstudio/images/logos/dreamstudio.jpg" style="height:23px; margin:28px 10px 4px 34px">
+## <img src="img/dreamsuite.jpg" style="height:23px; margin:28px 10px 4px 34px">
 
 Design Suite installer  
 
