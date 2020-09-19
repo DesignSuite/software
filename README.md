@@ -1,6 +1,6 @@
-## <img src="https://dreamstudio.com/dreamstudio/images/logos/dreamstudio.jpg" style="height:24px; margin:28px 10px 4px 34px">Design Suite
+## <img src="https://dreamstudio.com/dreamstudio/images/logos/dreamstudio.jpg" style="height:23px; margin:28px 10px 4px 34px">
 
-Steps for installing the DreamSuite open source software collection.   
+DreamSuite open source software installer.   
 
 ### Mac OS
 
