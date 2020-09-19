@@ -1,10 +1,10 @@
 ## <img src="img/dreamsuite.jpg" style="height:23px; margin:28px 10px 4px 34px">
 
-Design Suite installer  
+The DreamSuite commands provide an easy way to install open source software without visiting multiple sites.  
 
 ### Mac OS
 
-Copy the [Mac install script](MacOS/InstallCreativeApps.sh) and run in a local terminal.  
+To install, run the [Mac install script](MacOS/InstallCreativeApps.sh) in a local terminal.  
 Type "sh " than drag the InstallCreativeApps.sh file onto the terminal to complete the path.  
 After installing, click "Get Info" on new apps and unlock in the lower right.  
 
