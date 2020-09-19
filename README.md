@@ -1,6 +1,6 @@
-# Creative Suite
+# Design Suite
 
-Simple script for installing the leading open source tools for creative design.   
+Steps for installing design suite.   
 
 ## Mac OS
 
