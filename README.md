@@ -9,10 +9,10 @@ Type "sh " than drag the InstallCreativeApps.sh file onto the terminal to comple
 After installing, click "Get Info" on the new apps and unlock in the lower right.  
 
 ### Windows 10
-Copy the [Windows install script](Windows/InstallCreativeApps.ps1) and run in a local terminal. 
+Run the [Windows install script](Windows/InstallCreativeApps.ps1) in a local terminal. 
 
 ### Linux - Tested on Ubuntu 18 LTS
-Copy the [Ubuntu install script](Ubuntu/InstallCreativeApps.sh) and run in a local terminal.  
+Run the [Ubuntu install script](Ubuntu/InstallCreativeApps.sh) in a local terminal.  
 
 -----
 [Learn More](https://dreamstudio.com/software) about the leading free creative tools for students, educators, business and government.  
