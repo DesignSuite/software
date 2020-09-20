@@ -1,6 +1,6 @@
 ## <img src="img/dreamsuite.jpg" style="height:23px; margin:28px 10px 4px 34px">
 
-DreamSuite provides an easy way to install open source software without visiting multiple sites.  
+The easy way to install open source software without visiting multiple sites.  
 
 ### Mac OS
 
