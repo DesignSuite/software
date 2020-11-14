@@ -32,6 +32,11 @@
 #fixedHeader {
 	border-bottom:1px solid #eee;
 }
+@media (max-width: 800px) {
+	.hideMobile {
+	    display: none;
+	}
+}
 </style>
 </head>
 
@@ -44,7 +49,7 @@
 
 	<div style="overflow:auto; border-left:0px solid #ccc; height:60px; margin:23px 40px 0 10px; padding-left:16px; font-size:13px">
 
-		<div class="navLinks" style="float:right;padding-top:6px">
+		<div class="navLinks hideMobile" style="float:right;padding-top:6px">
 
 			<a href="../"><span style="white-space: nowrap">Home</span></a> | 
 			<a href="./"><span style="white-space: nowrap">Software</span></a> | 
@@ -281,7 +286,7 @@
 
 
 
-<div class="lazy bgimg" data-src="/dreamstudio/img/features/eye.jpg" style="min-height:700px;">
+<div class="lazy bgimg hideMobile" data-src="/dreamstudio/img/features/eye.jpg" style="min-height:700px;">
   <div class="herocenter">
     <span class="border" style="color:#ccc">Nurture Ideas</span>
   </div>
