@@ -17,7 +17,7 @@ Run the [Ubuntu install script](Ubuntu/InstallCreativeApps.sh) in a local termin
 -----
 [Learn More](https://dreamstudio.com/software) about the leading free creative tools for students, educators, business and government.  
 
-Please make shared updates to the main repo at [Github.com/DreamSuite/software](https://Github.com/DesignSuite/creative)  
+Please make shared updates to the main repo at [Github.com/DesignSuite/software](https://Github.com/DesignSuite/software)  
 
 Suggestion: Fork and create an installer that schools can use to update student computers.
 
