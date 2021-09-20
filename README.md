@@ -1,6 +1,6 @@
 ## <img src="img/dreamsuite.jpg" style="height:23px; margin:28px 10px 4px 34px">
 
-The easy way to install open source software without visiting multiple sites.  
+Download and install the leading open source design apps using the following scripts:  
 
 ### Mac OS
 
