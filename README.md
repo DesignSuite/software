@@ -1,7 +1,3 @@
-The latest installer resides at [DreamStudioCode/software](https://github.com/DreamStudioCode/software)
-
-## <img src="img/dreamsuite.jpg" style="height:23px; margin:28px 10px 4px 34px">
-
 Download and install the leading open source design apps using the following scripts:  
 
 ### Mac OS
